@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #A66CFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+input {
+    background-color: #4c2885;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+input::placeholder {
+    color: #bbb;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.card{
+    display: flex;
+    background: linear-gradient(90deg, rgba(32,184,160,1) 0%, rgba(108,162,255,1) 55%, rgba(71,111,255,1) 100%);
+    padding: 3rem;
+    border-radius: 20px;
+    max-width: 800px;
+    -webkit-box-shadow: 0px 0px 26px 9px rgba(177,225,255,1);
+-moz-box-shadow: 0px 0px 26px 9px rgba(177,225,255,1);
+box-shadow: 0px 0px 26px 9px rgba(177,225,255,1);
+
+}
+
+.avatar{
+    border:10px solid #9C9EFE;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.user-info{
+    margin-left: 2rem;
+    color: white;
+}
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info p{
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+
+}
+
+.user-info ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin-top: 0.5rem;
+}
+
+.user-info ul li {
+    display: flex;
+    align-items: center;
+}
+
+.user-info ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+#repos{
+    margin-top: 1rem;
+}
+
+.repo {
+    background-color:#4c2885;;
+    border-radius: 7px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+.container {
+    margin-top: 0.5rem;
+    margin-bottom: 0.6em;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+
+#name-social-container {
+    margin-top: 7vh;
+}
+#my-name {
+       font-size: 3rem;
+       color: rgba(230 126 126 0.2);
+       letter-spacing: 0.2rem ;
+       font-size: 20px;
+       margin-bottom: 0.2rem;
+   }
+   
+   
+   .social-icons li a i{
+       color: rgb(230, 126, 126 0.2);
+       padding: 3px;
+       font-size: 1.2rem;
+       margin-top: 0.3rem;
+       border-radius: 50%;
+   }
+   .social-icons li a i:hover {
+       box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.2);
+   }
+   .horizontal-list {
+	list-style: none;
+	padding-left: 0px;
+}
+.text-center {
+	text-align: center;
+}
+.horizontal-list li {
+	
+	display: inline-block ;
+	margin: 0px 8px 0px 8px;
+}
